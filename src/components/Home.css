@@ -1,0 +1,85 @@
+/* Home container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Button container */
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Search container */
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Search input */
+  .search-input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Search button */
+  .search-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Modal */
+  .invoice-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Modal content */
+  .modal-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  /* Modal header */
+  .modal-content h2 {
+    margin-top: 0;
+  }
+  
+  /* Table container */
+  .table-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Table */
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Table header */
+  .table-container th {
+    background-color: #f2f2f2;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Table body */
+  .table-container td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  

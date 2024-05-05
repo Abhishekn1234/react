@@ -1,0 +1,107 @@
+/* App.css */
+.App {
+    text-align: center;
+  }
+  
+  .open-modal-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .open-modal-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* InvoiceModal.css */
+  /* InvoiceModal.css */
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; /* Adjust the width as needed */
+    max-width: 400px; /* Set a maximum width */
+    height: auto; /* Adjust the height as needed */
+    max-height: 80%; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+  }
+  
+  .close-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .modal-body form {
+    margin-bottom: 20px;
+  }
+  
+  .modal-body label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .modal-body input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-item-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-item-btn:hover {
+    background-color: #0056b3;
+  }
+  
